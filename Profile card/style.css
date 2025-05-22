@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+body{
+    text-align: center;
+    font-family: trebuchet MS;
+    background-image: url(https://images.pexels.com/photos/1072179/pexels-photo-1072179.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+.headline{
+    
+    background-color: black;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.profilecard{
+border: 5px solid #2c425d68;
+  width: 300px;
+  margin: 150px auto;
+  background-color: #04090fc3;
+  text-align: center;
+  padding: 30px 3px;
+  border-radius: 20px;
+  color: ghostwhite;
+  line-height: 27px;
+}
+
+img{
+    border-radius: 100%;
+}
+
+.handles button{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgba(202, 202, 202, 0.427);
+    border-style: double;
+    border-radius: 15px;
+    border-style: dotted;
+    text-decoration: solid black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.handles button:hover {
+    background-color: rgba(216, 0, 0, 0.836);
+  color: whitesmoke;
+  transition: background-color 0.2s;
+}
+
+footer{
+    background-color: black;
+    color:white;
+    margin-bottom: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
